@@ -15,7 +15,8 @@
     "react-scripts": "2.1.1",
     "react-test-renderer": "16.6.3",
     "redux": "4.0.1",
-    "superagent": "4.0.0-beta.5"
+    "superagent": "4.0.0-beta.5",
+    "lint": "eslint **/*.js"
   },
   "devDependencies": {},
   "scripts": {
