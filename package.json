@@ -15,14 +15,14 @@
     "react-scripts": "2.1.1",
     "react-test-renderer": "16.6.3",
     "redux": "4.0.1",
-    "superagent": "4.0.0-beta.5",
-    "lint": "eslint **/*.js"
+    "superagent": "4.0.0-beta.5"
   },
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint **/*.js"
   }
 }
