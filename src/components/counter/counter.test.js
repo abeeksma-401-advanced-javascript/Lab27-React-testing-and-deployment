@@ -6,7 +6,14 @@ import renderer from 'react-test-renderer';
 import Counter from './counter';
 
 
+
 describe('The Count(er)', () => {
+
+  it('matches snapshot without props', () => {
+    const tree = renderer.create(<Counter />).toJSON()
+    expect(tree).toMatchSnapshot();
+  });
+
   it('renders shallowly like fucking life', () => {
     let counter = shallow(<Counter/>);
     expect(counter.find('section').exists()).toBe(true);
